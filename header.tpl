@@ -136,7 +136,7 @@
 
 {if $templatefile == 'homepage'}
     <section id="home-banner">
-        <div class="container text-center">
+        <div class="container text-center" style="background:#6927ff3b !important">
             {if $registerdomainenabled || $transferdomainenabled}
                 <h2>{$LANG.homebegin}</h2>
                 <form method="post" action="domainchecker.php" id="frmDomainHomepage">
