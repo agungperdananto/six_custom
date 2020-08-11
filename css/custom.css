@@ -6,7 +6,7 @@
     defined here.
 
 ***************************************************** */
-ul.top-nav>li.primary-action>a.btn_custom {
+.custom_btn {
     padding: 6px 15px;
     background-color: #6927ff;
     color: #fff;
