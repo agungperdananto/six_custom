@@ -76,7 +76,7 @@
                     </li>
                 {/if}
                 <li class="primary-action">
-                    <a href="{$WEB_ROOT}/cart.php?a=view" class="btn">
+                    <a href="{$WEB_ROOT}/cart.php?a=view" class="btn_custom">
                         {$LANG.viewcart}
                     </a>
                 </li>
