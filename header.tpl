@@ -104,7 +104,7 @@
     <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header" style="background:#6927ff !important">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-nav">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
