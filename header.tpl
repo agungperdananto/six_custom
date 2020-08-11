@@ -99,9 +99,9 @@
     </div>
 </section>
 
-<section id="main-menu" style="background:#6927ff !important">
+<section id="main-menu">
 
-    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation" style="background:#6927ff !important">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
