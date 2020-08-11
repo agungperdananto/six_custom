@@ -135,7 +135,7 @@
 </section>
 
 {if $templatefile == 'homepage'}
-    <section id="home-banner">
+    <section id="home-banner" style="background:#6927ff3b !important">
         <div class="container text-center" style="background:#6927ff3b !important">
             {if $registerdomainenabled || $transferdomainenabled}
                 <h2>{$LANG.homebegin}</h2>
