@@ -135,7 +135,7 @@
 </section>
 
 {if $templatefile == 'homepage'}
-    <section id="home-banner" style="background:#6927ff3b !important">
+    <section id="home-banner" style="background:#6927ff3b; padding: 20px 10px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; !important">
         <div class="container text-center" style="background:#6927ff3b !important">
             {if $registerdomainenabled || $transferdomainenabled}
                 <h2>{$LANG.homebegin}</h2>
