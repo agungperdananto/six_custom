@@ -6,50 +6,13 @@
     defined here.
 
 ***************************************************** */
-ul.top-nav > li.primary-action > a.custom-btn {
+/* ul.top-nav > li.primary-action > a.custom-btn {
     padding: 6px 15px;
     background-color: #6927ff;
     color: #fff;
     border-radius: 3px;
-}
+} */
 
-/**
- * -------------------------
- * @section Main Menu
- * -------------------------
- */
 
-.navbar-main {
-    margin-bottom: 0;
-    background-color: #6927ff;
-    border: 0;
-    min-height: 38px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-}
-.navbar-main li.account {
-    background-color: #043d5f;
-}
-
-.navbar-main .navbar-nav > li > a {
-    color: #fff;
-}
-
-.navbar-main .navbar-nav > li > a {
-    padding-top: 9px;
-    padding-bottom: 9px;
-}
-
-.navbar-main .navbar-nav > li > a:hover,
-.navbar-main .navbar-nav > li > a:focus,
-.navbar-main .navbar-nav > .active > a,
-.navbar-main .navbar-nav > .active > a:hover,
-.navbar-main .navbar-nav > .active > a:focus,
-.navbar-main .navbar-nav > .open > a,
-.navbar-main .navbar-nav > .open > a:hover,
-.navbar-main .navbar-nav > .open > a:focus {
-    color: #eee;
-    background-color: #043d5f;
-}
 
 /* style="background:#6927ff3b;padding: 20px 10px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; !important" */
