@@ -101,7 +101,7 @@
 
 <section id="main-menu">
 
-    <nav id="nav" class="navbar navbar-default navbar-main-custom" role="navigation">
+    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
