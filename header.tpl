@@ -76,7 +76,7 @@
                     </li>
                 {/if}
                 <li class="primary-action">
-                    <a href="{$WEB_ROOT}/cart.php?a=view" class="custom_btn">
+                    <a href="{$WEB_ROOT}/cart.php?a=view" class="custom-btn">
                         {$LANG.viewcart}
                     </a>
                 </li>
@@ -99,9 +99,9 @@
     </div>
 </section>
 
-<section id="main-menu">
+<section id="main-menu-custom">
 
-    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation" style="background:#6927ff !important">
+    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -135,8 +135,8 @@
 </section>
 
 {if $templatefile == 'homepage'}
-    <section id="home-banner" style="background:#6927ff3b !important">
-        <div class="container text-center" style="background:#6927ff3b;padding: 20px 10px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; !important">
+    <section id="home-banner-custom">
+        <div class="container text-center">
             {if $registerdomainenabled || $transferdomainenabled}
                 <h2>{$LANG.homebegin}</h2>
                 <form method="post" action="domainchecker.php" id="frmDomainHomepage">

@@ -6,9 +6,86 @@
     defined here.
 
 ***************************************************** */
-ul.top-nav > li.primary-action > a.custom_btn {
+ul.top-nav > li.primary-action > a.custom-btn {
     padding: 6px 15px;
     background-color: #EF0505;
     color: #fff;
     border-radius: 3px;
 }
+
+/**
+ * -------------------------
+ * @section Main Menu
+ * -------------------------
+ */
+
+ section#main-menu-custom {
+    background-color: #6927ff;
+}
+
+section#home-banner-custom {
+    margin: 0;
+    padding: 50px 0 60px;
+    background-color: #043d5f;
+    color: #fff;
+}
+
+section#home-banner-custom.with-recaptcha {
+    padding-bottom: 90px;
+}
+
+section#home-banner-custom .tooltip-inner {
+    background-color: #00a3c6;
+}
+
+section#home-banner-custom .tooltip.left .tooltip-arrow {
+    border-left-color: #00a3c6;
+}
+
+section#home-banner-custom .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #00a3c6;
+}
+
+section#home-banner-custom .tooltip.right .tooltip-arrow {
+    border-right-color: #00a3c6;
+}
+
+section#home-banner-custom h2 {
+    margin: 0;
+    padding: 0 25px 10px 25px;
+}
+
+section#home-banner-custom .form-control {
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    font-weight: 300;
+}
+
+section#home-banner-custom .btn {
+    border-radius: 0;
+    border: 0;
+    font-weight: 300;
+    color: #fff;
+}
+
+section#home-banner-custom .btn.search {
+    background-color: #4ab98b;
+}
+section#home-banner-custom .btn.transfer {
+    background-color: #bbb;
+}
+
+@media (max-width: 992px) {
+    section#home-banner-custom h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+    section#home-banner-custom h2 {
+        font-size: 22px;
+    }
+}
+
+style="background:#6927ff3b;padding: 20px 10px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; !important"
