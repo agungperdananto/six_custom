@@ -23,6 +23,47 @@ ul.top-nav > li.primary-action > a.custom-btn {
     background-color: #6927ff;
 }
 
+/**
+ * -------------------------
+ * @section Main Navbar
+ * -------------------------
+ */
+
+ .navbar-main-custom > li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+.navbar-main-custom .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-main-custom .navbar-toggle .icon-bar {
+    background-color: #eee;
+}
+.navbar-main-custom .navbar-toggle:focus,
+.navbar-main-custom .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-main-custom .navbar-toggle:focus .icon-bar,
+.navbar-main-custom .navbar-toggle:hover .icon-bar {
+    background-color: #bbb;
+}
+
+@media (max-width: 991px) {
+    .navbar-main .navbar-nav>li>a {
+        padding: 3px 20px;
+    }
+
+    .navbar-main .open .dropdown-menu .dropdown-header,
+    .navbar-main .open .dropdown-menu>li>a {
+        padding: 3px 25px;
+    }
+}
+
+/**
+ * -------------------------
+ * @section Home banner
+ * -------------------------
+ */
+
 section#home-banner-custom {
     margin: 0;
     padding: 50px 0 60px;
