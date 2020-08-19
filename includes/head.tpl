@@ -13,7 +13,7 @@
 
 <!-- Bootstrap -->
 <link href="{$BASE_PATH_CSS}/bootstrap.min.css" rel="stylesheet">
-<link href="{$BASE_PATH_CSS}/font-awesome.min.css" rel="stylesheet">
+<link href="{$BASE_PATH_CSS}/fontawesome-all.min.css" rel="stylesheet">
 
 <!-- Styling -->
 <link href="{$WEB_ROOT}/templates/{$template}/css/overrides.css" rel="stylesheet">

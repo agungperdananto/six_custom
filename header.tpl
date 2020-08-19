@@ -409,10 +409,14 @@
 
 {if $templatefile == 'homepage'}
 
-    <section id="home-banner">
+    <section id="home-banner" style="margin: 0;
+                                    padding: 130px 0;
+                                    color: #fff;
+                                    background: url(../img/header-bg.jpg) no-repeat center top #2E363F;
+                                    background-size: cover;">
         <div class="container text-center">
              {if $registerdomainenabled || $transferdomainenabled}
-                <h2>{$LANG.homebegin}</h2>
+                <h2 style="color:#fff">{$LANG.homebegin}</h2>
                 <form method="post" action="domainchecker.php">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
