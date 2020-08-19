@@ -418,9 +418,10 @@ section#main-menu {
 
 section#home-banner {
     margin: 0;
-    padding: 50px 0 60px;
-    background-color: #043d5f;
+    padding: 130px 0;
     color: #fff;
+    background: url(../img/header-bg.jpg) no-repeat center top #2E363F;
+    background-size: cover;
 }
 
 section#home-banner.with-recaptcha {
