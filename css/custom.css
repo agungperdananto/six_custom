@@ -11,3 +11,16 @@
     background: #6927ff;
     color: #fff;
   }
+
+section#home-banner .btn.transfer {
+    background-color: #bbb;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section#header .search .form-control {
+    border-color: #eee;
+    box-shadow: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
