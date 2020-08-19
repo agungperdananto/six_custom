@@ -412,7 +412,6 @@
     <section id="home-banner" style="margin: 0;
                                     padding: 130px 0;
                                     color: #fff;
-                                    background: url(../img/header-bg.jpg);
                                     background-size: cover;">
         <div class="container text-center">
              {if $registerdomainenabled || $transferdomainenabled}
