@@ -6,6 +6,8 @@
     defined here.
 
 ***************************************************** */
-
-
-/* style="background:#6927ff3b;padding: 20px 10px; border-top-left-radius: 20px; border-bottom-right-radius: 20px; !important" */
+.home-shortcuts {
+    margin: 0;
+    background: #6927ff;
+    color: #fff;
+  }
