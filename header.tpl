@@ -150,7 +150,7 @@
                                         <input type="submit" class="btn search{$captcha->getButtonClass($captchaForm)}" value="{$LANG.search}" />
                                     {/if}
                                     {if $transferdomainenabled}
-                                        <input type="submit" id="btnTransfer" class="btn transfer{$captcha->getButtonClass($captchaForm)}" value="{$LANG.domainstransfer}" />
+                                        <input type="submit" id="btnTransfer" class="btn transfer{$captcha->getButtonClass($captchaForm)}" value="{$LANG.domainstransfer}" style="border-bottom-right-radius: 15px;border-top-right-radius: 15px;"/>
                                     {/if}
                                 </span>
                             </div>
