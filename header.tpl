@@ -412,6 +412,7 @@
     <section id="home-banner" style="margin: 0;
                                     padding: 130px 0;
                                     color: #fff;
+                                    background: url(/whmcs/templates/SixCustom/img/header-bg.jpg) no-repeat center top #2E363F;
                                     background-size: cover;">
         <div class="container text-center">
              {if $registerdomainenabled || $transferdomainenabled}
