@@ -144,7 +144,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                             <div class="input-group input-group-lg">
-                                <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="{lang key='orderForm.required'}" />
+                                <input type="text" class="form-control left-radius" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" data-toggle="tooltip" data-placement="left" data-trigger="manual" title="{lang key='orderForm.required'}" />
                                 <span class="input-group-btn">
                                     {if $registerdomainenabled}
                                         <input type="submit" class="btn search{$captcha->getButtonClass($captchaForm)}" value="{$LANG.search}" />

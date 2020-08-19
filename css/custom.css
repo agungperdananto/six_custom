@@ -18,9 +18,7 @@ section#home-banner .btn.transfer {
     border-bottom-right-radius: 15px;
 }
 
-section#header .search .form-control {
-    border-color: #eee;
-    box-shadow: none;
+.left-radius {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
