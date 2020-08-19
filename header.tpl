@@ -355,13 +355,13 @@
       <a class="navbar-brand" href="{$WEB_ROOT}/index.php"> <img src="{$WEB_ROOT}/templates/{$template}/img/logo.png" alt="{$companyname}" /> </a> </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
+      {* <ul class="nav navbar-nav navbar-right">
         <li><a href="../index.html">HOME</a></li>
         <li class="hidden-sm"><a href="#">FEATURES</a></li>
         <li class="hidden-sm"><a href="#">PARTNERS</a></li>
         <li><a href="#pricing">PRICING</a></li>
         <li><a href="#">CONTACT</a></li>
-      </ul>
+      </ul> *}
       </li>
       </ul>
     </div>
@@ -409,8 +409,6 @@
 
 {if $templatefile == 'homepage'}
 
- 
-
     <section id="home-banner">
         <div class="container text-center">
              {if $registerdomainenabled || $transferdomainenabled}
@@ -446,7 +444,7 @@
     
 <div class="clearfix"></div>
 
-    <div class="home-shortcuts">
+    {* <div class="home-shortcuts">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 hidden-sm hidden-xs text-center">
@@ -494,7 +492,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> *}
     
     
 {/if}
