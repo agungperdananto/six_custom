@@ -64,6 +64,8 @@ section#header .search {
 section#header .search .form-control {
     border-color: #eee;
     box-shadow: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 section#header .search .btn {
     background-color: #eee;
