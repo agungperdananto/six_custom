@@ -43,6 +43,17 @@
 </script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/scripts.min.js?v={$versionHash}"></script>
 
+{if !empty($loadMarkdownEditor)}
+    <!-- Markdown Editor -->
+    <link href="{$BASE_PATH_CSS}/bootstrap-markdown.min.css" rel="stylesheet" />
+    <script src="{$BASE_PATH_JS}/bootstrap-markdown.js"></script>
+    <script src="{$BASE_PATH_JS}/markdown.min.js"></script>
+    <script src="{$BASE_PATH_JS}/to-markdown.js"></script>
+    {if !empty($mdeLocale)}
+        {$mdeLocale}
+    {/if}
+{/if}
+
 {if $templatefile == "viewticket" && !$loggedin}
   <meta name="robots" content="noindex" />
 {/if}
