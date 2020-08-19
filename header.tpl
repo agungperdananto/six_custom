@@ -30,7 +30,7 @@
             {/if}
         
         <div class="topbar">
-			<div class="container">
+			<div class="container custom-container">
 				<div class="row">
 				 
 					<div class="col-md-12 tb-right">
