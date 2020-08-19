@@ -446,7 +446,8 @@ section#home-banner .tooltip.right .tooltip-arrow {
 
 section#home-banner h2 {
     margin: 0;
-    padding: 0 25px 10px 25px;
+    padding: 0 25px 30px 25px;
+    color: #fff;
 }
 
 section#home-banner .form-control {
