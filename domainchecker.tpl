@@ -79,6 +79,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        {$i = 0;}
                                         {foreach $tldCategory->topLevelDomains as $tld}
                                             <tr>
                                                 <td>{$tld->tld}</td>
@@ -87,6 +88,8 @@
                                                 <td class="text-center">{if $tldpricing.{$tld->tld}.transfer}{$tldpricing.{$tld->tld}.transfer}{else}{$LANG.domainregnotavailable}{/if}</td>
                                                 <td class="text-center">{if $tldpricing.{$tld->tld}.renew}{$tldpricing.{$tld->tld}.renew}{else}{$LANG.domainregnotavailable}{/if}</td>
                                             </tr>
+
+                                            {if (++$i == 10) break;}
                                         {/foreach}
                                     </tbody>
                                 </table>
