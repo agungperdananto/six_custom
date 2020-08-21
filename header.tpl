@@ -280,7 +280,7 @@
         <div id="top-nav">
             <!-- Language -->
             {if $languagechangeenabled && count($locales) > 1}
-                <div class="pull-right nav">
+                <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                     <a href="#" class="quick-nav" data-toggle="popover" id="languageChooser"><i class="fa fa-language"></i> {$LANG.chooselanguage} <span class="caret"></span></a>
                     <div id="languageChooserContent" class="hidden">
                         <ul>
