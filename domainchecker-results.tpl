@@ -17,7 +17,7 @@
             {/if}
         </div>
     {/if}
-
+{* 
     {if ($searchResults && !$searchResults.isRegistered) || $bulkCheckResults}
 
         <div class="domainresults" id="primarySearchResults">
@@ -63,7 +63,6 @@
                                         <ul class="dropdown-menu" role="menu">
                                             {foreach $searchResults.pricing as $years => $price}
                                                 {if $price@iteration eq 1}
-                                                    {* Don't output the first as this is default *}
                                                     {continue}
                                                 {/if}
                                                 <li>
@@ -233,4 +232,4 @@
         </div>
     </div>
 
-{/if}
+{/if} *}
