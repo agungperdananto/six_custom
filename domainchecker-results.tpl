@@ -172,7 +172,7 @@
                 <table class="table table-curved table-hover" id="suggestionResults">
                     <tbody>
                         {foreach $searchResults.suggestions as $i => $result}
-                            <tr{if $i >= 10} class="hidden"{/if}>
+                            <tr{if ($i >= 10) break;} >
                                 <td>
                                     <strong>{$result.domainName}</strong>
                                 </td>
