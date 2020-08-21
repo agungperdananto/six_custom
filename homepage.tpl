@@ -1,9 +1,5 @@
-<div class="container" style="padding-right: 15px;
-                                padding-left: 15px;
-                                margin-right: auto;
-                                margin-left: auto;"> 
+<div class="container" > 
   <!--============== Main Features ==============-->
-  
   <div class="row mainFeatures" id="features">
     <div class="col-sm-6 col-md-4">
       <div class="img-thumbnail"> <img src="{$WEB_ROOT}/templates/{$template}/img/secure_img.png" width="85" height="88" alt="secure">
