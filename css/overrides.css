@@ -64,6 +64,7 @@ h6 {
 .navbar-main .navbar-nav > .open > a:focus {
     color: #eee;
     background-color: #043d5f;
+    border-radius: 6px;
 }
 
 #main-menu .navbar-nav {
