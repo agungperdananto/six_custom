@@ -151,7 +151,7 @@ function addToCart(clickedBtn, performAvailabilityCheck, orderType, years) {
 }
 
 function showMoreSuggestions() {
-    showCount = 0;
+    showCount = 10;
     jQuery("#suggestionResults tbody tr").each(function(index) {
         if (jQuery(this).hasClass('hidden')) {
             if (showCount < 10) {
