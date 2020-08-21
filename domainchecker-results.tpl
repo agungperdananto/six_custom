@@ -171,7 +171,7 @@
                 </div>
                 <table class="table table-curved table-hover" id="suggestionResults">
                     <tbody>
-                        {foreach $searchResults.suggestions as $i => $result}
+                        {* {foreach $searchResults.suggestions as $i => $result}
                             <tr{if $i >= 10} class="hidden"{/if}>
                                 <td>
                                     <strong>{$result.domainName}</strong>
@@ -198,7 +198,7 @@
                                             </span>
                                             </button>
                                             <ul class="dropdown-menu" role="menu">
-                                                {* {foreach $result.pricing as $years => $price}
+                                                {foreach $result.pricing as $years => $price}
                                                     {if $price@iteration eq 1}
                                                         {continue}
                                                     {/if}
@@ -207,13 +207,13 @@
                                                             {$years} {$LANG.orderyears} @ {$price.register}
                                                         </a>
                                                     </li>
-                                                {/foreach} *}
+                                                {/foreach}
                                             </ul>
                                         </div>
                                     {/if}
                                 </td>
                             </tr>
-                        {/foreach}
+                        {/foreach} *}
                         <tr id="trNoMoreSuggestions" class="hidden">
                             <td colspan="3" class="text-muted text-center">
                                 {$LANG.domaincheckernomoresuggestions}
