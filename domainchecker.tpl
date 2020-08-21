@@ -89,7 +89,8 @@
                                                 <td class="text-center">{if $tldpricing.{$tld->tld}.renew}{$tldpricing.{$tld->tld}.renew}{else}{$LANG.domainregnotavailable}{/if}</td>
                                             </tr>
 
-                                            {if (++$i == 10) break;}
+                                            {if ($i == 10) break;}
+                                            {$i++}
                                         {/foreach}
                                     </tbody>
                                 </table>
