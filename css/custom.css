@@ -1311,6 +1311,8 @@ textarea:focus,
 .main-content.home-page {
     min-height: inherit;
     margin-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .whmcs-branding {
