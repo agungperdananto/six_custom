@@ -293,7 +293,7 @@
             {/if}
             <!-- Login/Account Notifications -->
             {if $loggedin}
-                <div class="pull-right nav">
+                <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                     <a href="#" class="quick-nav" data-toggle="popover" id="accountNotifications" data-placement="bottom" title="{lang key="notifications"}"><i class="fa fa-info"></i> {$LANG.notifications} ({$clientAlerts|count})</a>
                     <div id="accountNotificationsContent" class="hidden">
                         {foreach $clientAlerts as $alert}
@@ -304,7 +304,7 @@
                     </div>
                 </div>
             {else}
-                <div class="pull-right nav">
+                <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                     <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
                     <div id="loginOrRegisterContent" class="hidden">
                         <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
@@ -331,7 +331,7 @@
                 </div>
             {/if}
             <!-- Shopping Cart -->
-            <div class="pull-right nav">
+            <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                 <a href="{$WEB_ROOT}/cart.php?a=view" class="quick-nav"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">{$LANG.viewcart} (</span><span id="cartItemCount">{$cartitemcount}</span><span class="hidden-xs">)</span></a>
             </div>
  
