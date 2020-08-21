@@ -1,4 +1,4 @@
-{* {if $validDomain}
+{if $validDomain}
 
     {if $searchResults}
         <div class="domain-checker-result-headline">
@@ -16,8 +16,8 @@
                 </p>
             {/if}
         </div>
-    {/if} *}
-{* 
+    {/if} 
+
     {if ($searchResults && !$searchResults.isRegistered) || $bulkCheckResults}
 
         <div class="domainresults" id="primarySearchResults">
@@ -232,4 +232,4 @@
         </div>
     </div>
 
-{/if} *}
+{/if}

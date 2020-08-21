@@ -38,7 +38,7 @@
     {include file="$template/domainchecker-results.tpl"}
 </div>
 
-{if !$loggedin && $currencies && !$performingLookup}
+{* {if !$loggedin && $currencies && !$performingLookup}
     <div class="currencychooser pull-right clearfix margin-bottom">
         <div class="btn-group" role="group">
             {foreach from=$currencies item=curr}
@@ -151,7 +151,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-{/if}
+{/if} *}
 
 <script>
 var langSearch = '{$LANG.search}';
