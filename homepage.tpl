@@ -1,4 +1,7 @@
-<div class="container"> 
+<div class="container" style="padding-right: 15px;
+                                padding-left: 15px;
+                                margin-right: auto;
+                                margin-left: auto;"> 
   <!--============== Main Features ==============-->
   
   <div class="row mainFeatures" id="features">
