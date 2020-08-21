@@ -171,6 +171,7 @@
                 </div>
                 <table class="table table-curved table-hover" id="suggestionResults">
                     <tbody>
+                    {$i=0}
                         {foreach $searchResults.suggestions as $i => $result}
                             <tr{if $i >= 10} class="hidden"{/if}>
                                 <td>
@@ -214,6 +215,8 @@
                                     {/if}
                                 </td>
                             </tr>
+                            {if ($i == 10) break;}
+                            {$i++}
                         {/foreach}
                         <tr id="trNoMoreSuggestions" class="hidden">
                             <td colspan="3" class="text-muted text-center">
