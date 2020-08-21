@@ -162,7 +162,7 @@
         </div>
     {/if}
 {/if}
-{* {if $searchResults && count($searchResults.suggestions) > 0}
+{if $searchResults && count($searchResults.suggestions) > 0}
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="domainresults" id="suggestionSearchResults">
@@ -172,7 +172,7 @@
                 <table class="table table-curved table-hover" id="suggestionResults">
                     <tbody>
                         {foreach $searchResults.suggestions as $i => $result}
-                            <tr{if $i >= 10} class="hidden"{/if}>
+                            <tr {if $i >= 10} class="hidden"{/if}>
                                 <td>
                                     <strong>{$result.domainName}</strong>
                                 </td>
@@ -233,4 +233,4 @@
         </div>
     </div>
 
-{/if} *}
+{/if}
