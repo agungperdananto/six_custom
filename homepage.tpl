@@ -1,4 +1,4 @@
-<div class="container" > 
+{* <div class="container" >  *}
   <!--============== Main Features ==============-->
   <div class="row mainFeatures" id="features">
     <div class="col-sm-6 col-md-4">
@@ -65,7 +65,7 @@
       <p>Our network runs the latest stable and secure versions of PHP &amp; MySQL. We also implement strict security and firewall rules protecting your website from unwanted visitors 24/7.</p>
     </div>
   </div>
-</div>
+{* </div> *}
 
 {if $twitterusername}
 
