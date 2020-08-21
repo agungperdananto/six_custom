@@ -421,14 +421,14 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                             <div class="input-group input-group-lg">
-                                <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" />
+                                <input type="text" class="form-control" name="domain" placeholder="{$LANG.exampledomain}" autocapitalize="none" style="border-radius: 6px;"/>
                                 <span class="input-group-btn">
 
                                   {if $registerdomainenabled}
-                                        <input type="submit" class="btn btn-success" value="{$LANG.search}" />
+                                        <input type="submit" class="btn btn-success" value="{$LANG.search}" style="border-radius: 6px;margin:0px 5px"/>
                                     {/if}
                                     {if $transferdomainenabled}
-                                        <input type="submit" name="transfer" class="btn btn-info" value="{$LANG.domainstransfer}" />
+                                        <input type="submit" name="transfer" class="btn btn-info" value="{$LANG.domainstransfer}" style="border-radius: 6px;"/>
                                     {/if}
 
 
