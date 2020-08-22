@@ -1330,7 +1330,7 @@ textarea:focus,
 }
 
 .navbar-main .navbar-nav > li > a {
-    color: #323232;
+    color: #f8f8f8;
 }
 
 media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:hover {
@@ -1405,7 +1405,7 @@ media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:
     padding: 10px 15px;
     background: #333;
     margin-bottom: 0;
-    border-bottom-radius: 3px;
+    border-radius: 6px;
 }
 
 .stats-head span {
@@ -1451,6 +1451,7 @@ media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:
 
 .services-stats .stats-head {
     background: #5D52A3;
+    border-radius: 6px;
 }
 
 .domains-stats {
@@ -1463,6 +1464,7 @@ media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:
 
 .domains-stats .stats-head {
     background: #12AA6F;
+    border-radius: 6px;
 }
 
 .invoices-stats {
@@ -1475,6 +1477,7 @@ media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:
 
 .invoices-stats .stats-head {
     background: #1FA3CC;
+    border-radius: 6px;
 }
 
 .tickets-stats {
@@ -1487,10 +1490,11 @@ media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:
 
 .tickets-stats .stats-head {
     background: #D13C2D;
+    border-radius: 6px;
 }
 
 
-/*domian*/
+/*domain*/
 
 .domain-checker-container {
 	background: #34454e;
