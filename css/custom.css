@@ -1329,7 +1329,7 @@ textarea:focus,
 }
 
 .navbar-main .navbar-nav > li > a {
-    color: #f8f8f8;
+    color: #323232;
 }
 
 media (max-width: 768px) .navbar-main .navbar-nav .open .dropdown-menu > li > a:hover {
