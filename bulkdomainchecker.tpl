@@ -1,4 +1,4 @@
-{if $bulkdomainsearchenabled}
+{* {if $bulkdomainsearchenabled}
     <div class="pull-right btn-group">
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
             {$LANG.domainbulksearch} <span class="caret"></span>
@@ -9,7 +9,7 @@
             <li><a href="domainchecker.php?search=bulktransfer">{$LANG.domainbulktransfersearch}</a></li>
         </ul>
     </div>
-{/if}
+{/if} *}
 
 {if $searchingFor == 'register'}
     <p>{$LANG.domainbulksearchintro}</p>
