@@ -511,7 +511,7 @@
             <div class="tile services-stats"><a href="clientarea.php?action=services">
                             <div class="icon"><i class="fa fa-cube"></i></div>
                             <div class="stat">{$clientsstats.productsnumactive}</div>
-                            <div class="title stats-head">{$LANG.navservices} <span>→</span> </div>
+                            <div class="title stats-head" style="color:#f8f8f8">{$LANG.navservices} <span>→</span> </div>
                          </a></div>
         </div>
         {if $registerdomainenabled || $transferdomainenabled}
@@ -519,7 +519,7 @@
                 <div class="tile domains-stats"><a href="clientarea.php?action=domains">
                                     <div class="icon"><i class="fa fa-globe"></i></div>
                                     <div class="stat">{$clientsstats.numactivedomains}</div>
-                                    <div class="title stats-head">{$LANG.navdomains} <span>→</span> </div>
+                                    <div class="title stats-head" style="color:#f8f8f8">{$LANG.navdomains} <span>→</span> </div>
                                  </a></div>
             </div>
         {elseif $condlinks.affiliates && $clientsstats.isAffiliate}
@@ -527,7 +527,7 @@
                 <div class="tile domains-stats"><a href="affiliates.php">
                                     <div class="icon"><i class="fa fa-shopping-cart"></i></div>
                                     <div class="stat">{$clientsstats.numaffiliatesignups}</div>
-                                    <div class="title stats-head">{$LANG.affiliatessignups} <span>→</span> </div>
+                                    <div class="title stats-head" style="color:#f8f8f8">{$LANG.affiliatessignups} <span>→</span> </div>
                                  </a></div>
             </div>
         {else}
@@ -535,7 +535,7 @@
                <div class="tile domains-stats"> <a href="clientarea.php?action=quotes">
                                    <div class="icon"><i class="fa fa-file-text-o"></i></div>
                                    <div class="stat">{$clientsstats.numquotes}</div>
-                                   <div class="title stats-head">{$LANG.quotes} <span>→</span> </div>
+                                   <div class="title stats-head" style="color:#f8f8f8">{$LANG.quotes} <span>→</span> </div>
                                 </a></div>
             </div>
         {/if}
@@ -543,14 +543,14 @@
            <div class="tile tickets-stats"> <a href="supporttickets.php">
                            <div class="icon"><i class="fa fa-comments"></i></div>
                            <div class="stat">{$clientsstats.numactivetickets}</div>
-                           <div class="title stats-head">{$LANG.navtickets} <span>→</span> </div>
+                           <div class="title stats-head" style="color:#f8f8f8">{$LANG.navtickets} <span>→</span> </div>
                         </a></div>
         </div>
         <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=invoices'">
            <div class="tile invoices-stats"> <a href="clientarea.php?action=invoices">
                            <div class="icon"><i class="fa fa-credit-card"></i></div>
                            <div class="stat">{$clientsstats.numunpaidinvoices}</div>
-                           <div class="title stats-head">{$LANG.navinvoices}<span>→</span> </div>
+                           <div class="title stats-head" style="color:#f8f8f8">{$LANG.navinvoices}<span>→</span> </div>
                         </a></div>
         </div>
     </div>

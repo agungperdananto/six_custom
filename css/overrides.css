@@ -43,6 +43,7 @@ h6 {
 }
 .navbar-main li.account {
     background-color: #40aceb;
+    border-radius: 6px;
 }
 
 .navbar-main .navbar-nav > li > a {
