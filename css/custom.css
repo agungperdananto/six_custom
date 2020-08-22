@@ -237,8 +237,8 @@ p {
 
 .btn-lg {
     font-size: 18px;
-    padding: 20px 40px;
-    margin: 5px 10px;
+    /* padding: 20px 40px;
+    margin: 5px 10px; */
 }
 
 .btn-success {
@@ -1267,7 +1267,7 @@ textarea:focus,
 .btn {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0;
+    border-radius: 6px;
 }
 
 .btn-inverse {
