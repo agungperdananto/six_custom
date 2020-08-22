@@ -34,11 +34,11 @@
 <div class="domain-step-options hidden" id="stepBulkOptions">
     <textarea class="form-control" rows="10" cols="60" id="inputBulkDomains"></textarea>
 </div>
-{* <div class="domain-step-options{if !$performingLookup} hidden{/if}" id="stepResults">
+<div class="domain-step-options{if !$performingLookup} hidden{/if}" id="stepResults">
     {include file="$template/domainchecker-results.tpl"}
-</div> *}
+</div>
 
-{* {if !$loggedin && $currencies && !$performingLookup}
+{if !$loggedin && $currencies && !$performingLookup}
     <div class="currencychooser pull-right clearfix margin-bottom">
         <div class="btn-group" role="group">
             {foreach from=$currencies item=curr}
@@ -151,7 +151,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-{/if} *}
+{/if}
 
 <script>
 var langSearch = '{$LANG.search}';
