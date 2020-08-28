@@ -53,7 +53,7 @@ drift.SNIPPET_VERSION = '0.3.1';
 drift.load('gevb5c58wsum');
 </script>
 <!-- End of Async Drift Code -->
-<script src="{$BASE_PATH_JS}/bootstrap.min.js"></script>
+{* <script src="{$BASE_PATH_JS}/bootstrap.min.js"></script> *}
 {if !empty($loadMarkdownEditor)}
     <!-- Markdown Editor -->
     <link href="{$BASE_PATH_CSS}/bootstrap-markdown.min.css" rel="stylesheet" />
