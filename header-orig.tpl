@@ -279,7 +279,6 @@
 						  <!-- Top Bar -->
         <div id="top-nav">
             <!-- Language -->
-            {*
             {if $languagechangeenabled && count($locales) > 1}
                 <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                     <a href="#" class="quick-nav" data-toggle="popover" id="languageChooser"><i class="fa fa-language"></i> {$LANG.chooselanguage} <span class="caret"></span></a>
@@ -292,7 +291,6 @@
                     </div>
                 </div>
             {/if}
-            *}
             <!-- Login/Account Notifications -->
             {if $loggedin}
                 <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
@@ -309,8 +307,7 @@
                 <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
                     <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
                     <div id="loginOrRegisterContent" class="hidden">
-                        <form action="https://member.donomen.com/whmcs/dologin.php" method="post" role="form">
-                        <!-- <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form"> -->
+                        <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
                             <div class="form-group">
                                 <input type="email" name="username" class="form-control" placeholder="{$LANG.clientareaemail}" required />
                             </div>
@@ -415,11 +412,10 @@
     <section id="home-banner" style="margin: 0;
                                     padding: 130px 0;
                                     color: #fff;
-                                    background: url(https://images.unsplash.com/photo-1535903077773-06e1c97d48ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80) no-repeat center top #2E363F;
+                                    background: url(/whmcs/templates/SixCustom/img/header-bg.jpg) no-repeat center top #2E363F;
                                     background-size: cover;">
         <div class="container text-center">
-             <!-- || $transferdomainenabled -->
-             {if $registerdomainenabled}
+             {if $registerdomainenabled || $transferdomainenabled}
                 <h2 style="color:#fff">{$LANG.homebegin}</h2>
                 <form method="post" action="domainchecker.php">
                     <div class="row">
@@ -431,9 +427,12 @@
                                   {if $registerdomainenabled}
                                         <input type="submit" class="btn btn-success" value="{$LANG.search}" style="border-radius: 6px;margin:0px 5px"/>
                                     {/if}
-                                    <!-- {if $transferdomainenabled}
+                                    {if $transferdomainenabled}
                                         <input type="submit" name="transfer" class="btn btn-info" value="{$LANG.domainstransfer}" style="border-radius: 6px;"/>
-                                    {/if} -->
+                                    {/if}
+
+
+
                                 </span>
                             </div>
                         </div>

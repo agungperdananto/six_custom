@@ -426,7 +426,8 @@ section#home-banner {
     margin: 0;
     padding: 130px 0;
     color: #fff;
-    background: url(../img/header-bg.jpg) no-repeat center top #2E363F;
+    background: url(https://www.donomen.com/images/bg01.jpg) no-repeat center top #2E363F;
+    /* background: url(../img/header-bg.jpg) no-repeat center top #2E363F; */
     background-size: cover;
 }
 

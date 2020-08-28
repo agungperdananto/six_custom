@@ -120,7 +120,8 @@ p {
     /*text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);*/
     
-    background: url(../img/header-bg.jpg) no-repeat #232a31;
+    background: url(https://www.donomen.com/images/bg01.jpg) no-repeat center top #2E363F;
+    /* background: url(../img/header-bg.jpg) no-repeat #232a31; */
     /* Old browsers */
     
     height: 630px;
