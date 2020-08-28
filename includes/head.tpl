@@ -20,7 +20,7 @@
 <![endif]-->
 
 <!-- Start of Async Drift Code -->
-<script>
+{* <script>
 "use strict";
 
 !function() {
@@ -45,7 +45,7 @@
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('gevb5c58wsum');
-</script>
+</script> *}
 
 <script src="{$BASE_PATH_JS}/bootstrap.min.js"></script>
 
