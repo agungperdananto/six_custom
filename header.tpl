@@ -307,7 +307,7 @@
                 </div>
             {else}
                 <div class="pull-right nav" style="font-size: 11px;margin: 0px 10px;">
-                    <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
+                    {* <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a> *}
                     <div id="loginOrRegisterContent" class="hidden">
                         <form action="https://member.donomen.com/whmcs/dologin.php" method="post" role="form">
                         <!-- <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form"> -->
