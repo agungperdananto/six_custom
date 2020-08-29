@@ -1,4 +1,4 @@
-<div class="custom-container"> 
+<div class="container"> 
   <!--============== Main Features ==============-->
   
   <div class="row mainFeatures" id="features">
