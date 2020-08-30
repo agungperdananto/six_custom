@@ -8989,7 +8989,7 @@ div.domainresults table tr td {
     padding: 80px 0;
     background-repeat: no-repeat;
     background-position: 110% -5px;
-    background-image:url('../img/globe.png');
+    background-image:url('../img/globe-grey.png');
 }
 
 @media (max-width: 992px) {
