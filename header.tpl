@@ -1,3 +1,4 @@
+/* BOL */
 {*<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -236,6 +237,7 @@
                 {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
             {/if}
 *}
+/* EOL */
 
 <!DOCTYPE html>
 <html lang="en">
@@ -244,9 +246,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
-
     {include file="$template/includes/head.tpl"}
-
     {$headoutput}
 
 </head>
@@ -461,7 +461,7 @@
                     <ul>
                     {if $registerdomainenabled || $transferdomainenabled}
                         <li>
-                            <a id="btnBuyADomain" href="domainchecker.php">
+                            <a id="btnBuyADomain" href="domainchecker.php?currency=3">
                                 <i class="fa fa-globe"></i>
                                 <p>
                                     {$LANG.buyadomain} <span>&raquo;</span>
@@ -470,7 +470,7 @@
                         </li>
                          {/if}
                         <li>
-                            <a id="btnOrderHosting" href="cart.php">
+                            <a id="btnOrderHosting" href="cart.php?currency=3">
                                 <i class="fa fa-hdd-o"></i>
                                 <p>
                                     {$LANG.orderhosting} <span>&raquo;</span>
@@ -478,7 +478,7 @@
                             </a>
                         </li>
                         <li>
-                            <a id="btnMakePayment" href="clientarea.php">
+                            <a id="btnMakePayment" href="clientarea.php?currency=3">
                                 <i class="fa fa-credit-card"></i>
                                 <p>
                                     {$LANG.makepayment} <span>&raquo;</span>
@@ -486,7 +486,7 @@
                             </a>
                         </li>
                         <li>
-                            <a id="btnGetSupport" href="submitticket.php">
+                            <a id="btnGetSupport" href="submitticket.php?currency=3">
                                 <i class="fa fa-envelope-o"></i>
                                 <p>
                                     {$LANG.getsupport} <span>&raquo;</span>
@@ -509,46 +509,46 @@
 <div class="tiles clearfix">
     <div class="row">
         <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=services'">
-            <div class="tile services-stats"><a href="clientarea.php?action=services">
+            <div class="tile services-stats"><a href="clientarea.php?action=services&currency=3">
                             <div class="icon"><i class="fa fa-cube"></i></div>
                             <div class="stat">{$clientsstats.productsnumactive}</div>
                             <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.navservices} <span>→</span> </div>
                          </a></div>
         </div>
         {if $registerdomainenabled || $transferdomainenabled}
-            <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=domains'">
-                <div class="tile domains-stats"><a href="clientarea.php?action=domains">
+            <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=domains&currency=3'">
+                <div class="tile domains-stats"><a href="clientarea.php?action=domains&currency=3">
                                     <div class="icon"><i class="fa fa-globe"></i></div>
                                     <div class="stat">{$clientsstats.numactivedomains}</div>
                                     <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.navdomains} <span>→</span> </div>
                                  </a></div>
             </div>
         {elseif $condlinks.affiliates && $clientsstats.isAffiliate}
-            <div class="col-sm-3 col-xs-6" onclick="window.location='affiliates.php'">
-                <div class="tile domains-stats"><a href="affiliates.php">
+            <div class="col-sm-3 col-xs-6" onclick="window.location='affiliates.php?currency=3'">
+                <div class="tile domains-stats"><a href="affiliates.php?currency=3">
                                     <div class="icon"><i class="fa fa-shopping-cart"></i></div>
                                     <div class="stat">{$clientsstats.numaffiliatesignups}</div>
                                     <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.affiliatessignups} <span>→</span> </div>
                                  </a></div>
             </div>
         {else}
-            <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=quotes'">
-               <div class="tile domains-stats"> <a href="clientarea.php?action=quotes">
+            <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=quotes&currency=3'">
+               <div class="tile domains-stats"> <a href="clientarea.php?action=quotes&currency=3">
                                    <div class="icon"><i class="fa fa-file-text-o"></i></div>
                                    <div class="stat">{$clientsstats.numquotes}</div>
                                    <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.quotes} <span>→</span> </div>
                                 </a></div>
             </div>
         {/if}
-        <div class="col-sm-3 col-xs-6" onclick="window.location='supporttickets.php'">
-           <div class="tile tickets-stats"> <a href="supporttickets.php">
+        <div class="col-sm-3 col-xs-6" onclick="window.location='supporttickets.php?currency=3'">
+           <div class="tile tickets-stats"> <a href="supporttickets.php?currency=3">
                            <div class="icon"><i class="fa fa-comments"></i></div>
                            <div class="stat">{$clientsstats.numactivetickets}</div>
                            <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.navtickets} <span>→</span> </div>
                         </a></div>
         </div>
-        <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=invoices'">
-           <div class="tile invoices-stats"> <a href="clientarea.php?action=invoices">
+        <div class="col-sm-3 col-xs-6" onclick="window.location='clientarea.php?action=invoices&currency=3'">
+           <div class="tile invoices-stats"> <a href="clientarea.php?action=invoices&currency=3">
                            <div class="icon"><i class="fa fa-credit-card"></i></div>
                            <div class="stat">{$clientsstats.numunpaidinvoices}</div>
                            <div class="title stats-head" style="color:#f8f8f8;border-radius:6px;">{$LANG.navinvoices}<span>→</span> </div>
