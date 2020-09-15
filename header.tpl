@@ -1,5 +1,5 @@
-/* BOL */
 {*<!DOCTYPE html>
+/* BOL */
 <html lang="en">
 <head>
     <meta charset="{$charset}" />
@@ -236,8 +236,8 @@
             {if !$primarySidebar->hasChildren() && !$showingLoginPage && !$inShoppingCart && $templatefile != 'homepage' && !$skipMainBodyContainer}
                 {include file="$template/includes/pageheader.tpl" title=$displayTitle desc=$tagline showbreadcrumb=true}
             {/if}
-*}
 /* EOL */
+*}
 
 <!DOCTYPE html>
 <html lang="en">
