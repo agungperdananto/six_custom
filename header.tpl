@@ -90,9 +90,9 @@
         </ul>
 
         {if $assetLogoPath}
-            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="{$assetLogoPath}" alt="{$companyname}"></a>
+            <a href="{$WEB_ROOT}/index.php?currency=3" class="logo"><img src="{$assetLogoPath}" alt="{$companyname}"></a>
         {else}
-            <a href="{$WEB_ROOT}/index.php" class="logo logo-text">{$companyname}</a>
+            <a href="{$WEB_ROOT}/index.php?currency=3" class="logo logo-text">{$companyname}</a>
         {/if}
 
     </div>
@@ -138,7 +138,7 @@
         <div class="container text-center">
             {if $registerdomainenabled || $transferdomainenabled}
                 <h2>{$LANG.homebegin}</h2>
-                <form method="post" action="domainchecker.php" id="frmDomainHomepage">
+                <form method="post" action="domainchecker.php?currency=3" id="frmDomainHomepage">
                     <input type="hidden" name="transfer" />
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
@@ -355,7 +355,7 @@
   <div class="container">
     <div class="navbar-header">
       {* <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> *}
-      <a class="navbar-brand" href="{$WEB_ROOT}/index.php"> <img src="{$WEB_ROOT}/templates/{$template}/img/logo.png" alt="{$companyname}" /> </a> </div>
+      <a class="navbar-brand" href="{$WEB_ROOT}/index.php?currency=3"> <img src="{$WEB_ROOT}/templates/{$template}/img/logo.png" alt="{$companyname}" /> </a> </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       {* <ul class="nav navbar-nav navbar-right">
@@ -421,7 +421,7 @@
              <!-- || $transferdomainenabled -->
              {if $registerdomainenabled}
                 <h2 style="color:#fff">{$LANG.homebegin}</h2>
-                <form method="post" action="domainchecker.php">
+                <form method="post" action="domainchecker.php?currency=3">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                             <div class="input-group input-group-lg">
